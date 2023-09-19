@@ -1,0 +1,536 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Teko;
+}
+
+.container {
+   background-color: rgb(255, 255, 255);
+    margin: auto;
+    max-width: 1080px;
+    font-size: 20px;
+    
+}
+
+.logo {
+    height: 50px;
+    position: relative; top: 0.6rem;
+
+}
+
+.menu {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    overflow: auto;
+    position: absolute; top: 1rem;
+}
+
+@media (min-width:1000px) {
+    .menu {
+        padding-left: 600px;
+        margin: auto;
+    }   
+}
+
+@media (max-width:1000px) {
+    div.menu{ 
+        margin: auto;
+        padding-left: 119px;
+        padding-top: 10px;
+    }
+}
+
+div.menu {
+    padding-top: 10px;
+}
+
+li {
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    position: relative;
+    justify-content: right;
+    padding-left: 12px;
+}
+
+a#nav { 
+    flex-wrap: wrap;
+}
+
+ #name {
+    font-size: 24px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    justify-content: right;
+}
+
+a:hover {
+    cursor: pointer;
+    color:darkgrey;
+    font-size: 25px;
+}
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+div.main {
+    display: flex;
+    background-image: url(mountain2.jpg);
+    flex-wrap:wrap;
+    height: 800px;
+    width: 100%;
+    
+}
+
+
+@media (max-width:1000px) {
+    div.main {
+        height:1000px;
+    }
+}
+
+.main .flex {
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+ #pf {
+    width: 450px;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 700;
+    color:azure;
+    font-family: Lexend;
+    justify-content: center;
+    text-align: center;
+}
+@media (min-width:1920px) {
+p#pf.flex {
+    margin-right: 500px;
+ }
+}
+
+#welcome {
+    font-size: 35px;
+    font-family: Montserrat;
+    text-align: center;
+    max-width: 400px;
+}
+
+ul.colors {
+    align-content: center;
+    vertical-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    height:auto;
+
+}
+
+#spaceblue {
+    background-color: rgb(180, 196, 209);
+    font-size: 35px;
+    margin-left: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 280px;
+}
+
+#spaceblue:hover {
+    background-color: rgb(180, 196, 209);
+    font-size: 35px;
+    margin-left: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 280px;
+    cursor: pointer;
+}
+
+
+@media (max-width:2400px) {
+    #spaceblue {
+        background-color: rgb(180, 196, 209);
+        font-size: 25px;
+        margin:auto;
+        padding: 10px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:2400px) {
+    #spaceblue:hover {
+        background-color: rgb(180, 196, 209);
+        font-size: 25px;
+        margin:auto;
+        padding: 10px;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+}
+
+
+
+#burntblue {
+    background-color: rgb(23, 49, 71);
+    font-size: 35px;
+    color:aliceblue;
+    margin-left: 500px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 280px;
+}
+
+
+@media (max-width:2400px) {
+    #burntblue {
+        background-color: rgb(23, 49, 71);
+        font-size: 25px;
+        color:aliceblue;
+        margin:auto;
+        padding: 10px;
+        margin-left: 40px;
+    }
+}
+
+
+#mountaingray {
+    background-color: rgba(61, 69, 77, 0.863);
+    font-size: 35px;
+    color: white;
+    margin-left: 500px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 280px;
+}
+
+
+@media (max-width:2400px) {
+    #mountaingray {
+        background-color: rgba(61, 69, 77, 0.863);
+        font-size: 25px;
+        color: white;
+        margin:auto;
+        padding: 10px;
+        margin-left: 40px;
+        justify-content: center;
+        
+    }
+}
+
+.colorcontainer {
+    margin: auto;
+    flex: auto;
+    height: 300px;
+    justify-content: center;
+}
+
+#exheader {
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+#tekoh1 {
+    font-family: Teko;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+#Montserrat {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#Lexend {
+    font-family: Lexend;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#headercontainer {
+    display: inline-block;
+    justify-content: center;
+    vertical-align: center;
+    width: 30%;
+    height: 300px;
+    margin: 100px;
+}
+
+@media (max-width:1000px) {
+    #headercontainer {
+        width: 200px;
+    }
+}
+
+div#headercontainer {
+    border: 3px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px;
+    justify-content: center;
+    vertical-align: center;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 30px;
+    height: 100%;
+    min-width: 300px;
+    flex-wrap: wrap;
+    line-height: 60px;
+    padding-top: 48px;
+    padding-bottom: 9px;
+}
+
+@media (max-width:1300px) {
+    div#headercontainer {
+        border: 3px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px;
+        justify-content: center;
+        vertical-align: center;
+        display: inline-block;
+        margin: 30px auto;
+        text-align: center;
+        margin-left: 30px;
+        height: 100%;
+        min-width: 300px;
+        flex-wrap: wrap;
+        width: 85%;
+    }
+}
+
+div#headercontainer1 {
+    border: 3px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px;
+    justify-content: center;
+    vertical-align: center;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 30px;
+    height: 100%;
+    min-width: 300px;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-top: 54px;
+    line-height: 60px;
+}
+
+div#headercontainer2 {
+    border: 3px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px;
+    justify-content: center;
+    vertical-align: center;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 30px;
+    height: 100%;
+    min-width: 300px;
+    flex-wrap: wrap;
+    width: 30%;
+    padding-top: 56px;
+    line-height: 60px;
+}
+
+@media (max-width:1300px) {
+    div#headercontainer2 {
+        border: 3px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px;
+        justify-content: center;
+        vertical-align: center;
+        display: inline-block;
+        margin: 30px auto;
+        text-align: center;
+        margin-left: 30px;
+        height: 100%;
+        min-width: 300px;
+        flex-wrap: wrap;
+        width: 85%;
+    }
+}
+
+@media (max-width:1300px) {
+    div#headercontainer1 {
+        border: 3px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px;
+        justify-content: center;
+        vertical-align: center;
+        display: inline-block;
+        margin: 30px auto;
+        text-align: center;
+        margin-left: 30px;
+        height: 100%;
+        min-width: 300px;
+        flex-wrap: wrap;
+        width: 85%;
+    }
+}
+
+h1.paragraphs {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+ div.paragraphs{
+    border: 3px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px;
+    justify-content: center;
+    vertical-align: center;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 30px;
+    height: 300px;
+    width: 30%;
+    font-size: 24px;
+    line-height: 60px;
+    min-height: 415px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1300px) {
+    div.paragraphs{
+        border: 3px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px;
+        justify-content: center;
+        vertical-align: center;
+        display: inline-block;
+        margin: 30px auto;
+        text-align: center;
+        margin-left: 30px;
+        height: 300px;
+        width: 85%;
+        font-size: 24px;
+    }
+}
+
+#tekobold {
+    font-weight: 700;
+}
+
+#tekoitalic {
+    font-style: italic;
+}
+
+div.paragraphs2{
+    border: 3px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px;
+    justify-content: center;
+    vertical-align: center;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 30px;
+    height: 300px;
+    width: 30%;
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 60px;
+    min-height: 415px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1300px) {
+    div.paragraphs2{
+        border: 3px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px;
+        justify-content: center;
+        vertical-align: center;
+        display: inline-block;
+        margin: 30px auto;
+        text-align: center;
+        margin-left: 30px;
+        height: 350px;
+        width: 85%;
+        font-size: 24px;
+        flex-wrap: wrap;
+    }
+}
+
+#montserratnormal {
+    font-family: montserrat;
+}
+
+#Montserratbold {
+    font-weight: 700;
+    font-family: montserrat;
+}
+
+#Montserratitalic {
+    font-style: italic;
+    font-family: montserrat;
+}
+
+div.paragraphs3{
+    border: 3px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px;
+    justify-content: center;
+    vertical-align: center;
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    margin-left: 30px;
+    height: 300px;
+    width: 30%;
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 60px;
+    min-height: 415px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1600px) {
+    div.paragraphs3{
+        border: 3px solid black;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px;
+        justify-content: center;
+        vertical-align: center;
+        display: inline-block;
+        margin: 30px auto;
+        text-align: center;
+        margin-left: 30px;
+        height: 340px;
+        width: 85%;
+        font-size: 24px;
+    }
+}
+
+#lexendnormal{
+    font-family:lexend;
+}
+
+#lexendbold {
+    font-weight: 700;
+    font-family: lexend;
+}
+
+#lexenditalic {
+    font-style: italic;
+    font-family: lexend;
+}
